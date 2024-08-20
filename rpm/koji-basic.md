@@ -2,7 +2,7 @@
 
 ## 管理员操作
 
-- add_tag
+- add tag
 
 ```bash
 koji add-tag dist-foo
@@ -22,8 +22,8 @@ koji add-target dist-foo dist-foo-build
 - add group
 
 ```bash
-koji add-group-pkg 105xe-build build bash bzip2 coreutils cpio diffutils findutils gawk gcc gcc-c++ grep gzip info make patch rpm-build scl-utils-build sed shadow-utils tar unzip util-linux which xz git setup
-koji add-group-pkg 105xe-build srpm-build bash git rpm-build scl-utils-build shadow-utils system-release 
+koji add-group-pkg aa-tag-build build bash bzip2 coreutils cpio diffutils findutils gawk gcc gcc-c++ grep gzip info make patch rpm-build scl-utils-build sed shadow-utils tar unzip util-linux which xz git setup
+koji add-group-pkg aa-tag-build srpm-build bash git rpm-build scl-utils-build shadow-utils system-release 
 ```
     
 
@@ -36,12 +36,12 @@ koji regen-repo dist-foo-build
 - 添加外部源
 
 ```bash
-koji add-external-repo -t dist-foo-build dist-foo-external-devplus http://10.7.10.216:82/devplus/
-koji add-external-repo -t dist-foo-build dist-foo-external-baseos http://10.7.10.216:82/baseos/
-koji add-external-repo -t dist-foo-build dist-foo-external-appstream http://10.7.10.216:82/appstream/
-koji add-external-repo -t dist-foo-build dist-foo-external-powertools http://10.7.10.216:82/powertools/
-koji add-external-repo -t dist-foo-build dist-foo-external-epel http://10.7.10.216:82/epel/
-koji add-external-repo -t dist-foo-build dist-foo-external-extra http://10.7.10.216:82/extra/
+koji add-external-repo -t dist-foo-build dist-foo-external-devplus http://xx/devplus/
+koji add-external-repo -t dist-foo-build dist-foo-external-baseos http://xx/baseos/
+koji add-external-repo -t dist-foo-build dist-foo-external-appstream http://xx/appstream/
+koji add-external-repo -t dist-foo-build dist-foo-external-powertools http://xx/powertools/
+koji add-external-repo -t dist-foo-build dist-foo-external-epel http://xx/epel/
+koji add-external-repo -t dist-foo-build dist-foo-external-extra http://xx/extra/
 ```
 
 - regen repo
@@ -58,43 +58,38 @@ koji mock-config --tag dist-foo-build --arch=x86_64 --topurl=https://kojidev.exa
 
 - 加包到tag
 
-
 ```bash
 koji add-pkg --owner=kdreyer dist-foo ModemManager
 ```
 
-
-
 - build
 
 ```bash
-koji build dist-foo  'git+ssh://git@gitlabxa.uniontech.com/server/enterprisec/cloud/sshpass.git?#HEAD'
+koji --user xx --password xx build aa-tag git+http://xx/aa-name#origin/branch
 ```
-
 
 ```bash
-koji --server="http://10.30.38.102/kojihub" --weburl="http://10.30.38.102/koji" --topurl="http://10.30.38.102/kojifiles" --user  kojiadmin --password adminkoji build c8 --scratch /home/tyq/SM/rpmbuild/SRPMS/openssl-1.1.1g-15.uelc20.06.src.rpm --nowait &> /dev/null
+koji --server="http://xx/kojihub" --weburl="http://xx/koji" --topurl="http://xx/kojifiles" --user  kojiadmin --password adminkoji build aa-tag --scratch xx.src.rpm --nowait &> /dev/null
 ```
-
 
 ## 开发者使用
 
 1. 添加软件包到指定tag
 
-将`bash`添加到`105xe` tag
+将`bash`添加到`aa-tag` tag
 
 ```bash
-koji add-pkg --owner wangqing 105xe bash
+koji add-pkg --owner aa aa-tag bash
 ```
 
 2. 编译软件包 - release 构建
 
 ```bash
-koji build 105xe bash-5.0-17.up1.uel20.src.rpm --nowait
+koji build aa-tag xx.src.rpm --nowait
 ```
 
 3. 编译软件包 - 个人构建
 
 ```bash
-koji build 105xe bash-5.0-17.up1.uel20.src.rpm --scratch --nowait 
+koji build aa-tag xx.src.rpm --scratch --nowait 
 ```

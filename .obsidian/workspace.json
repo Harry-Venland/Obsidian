@@ -148,6 +148,10 @@
   },
   "active": "667061eb2b77b718",
   "lastOpenFiles": [
+    "build/gcc/cc-CC-gcc-g++.md",
+    "build/gcc",
+    "build/cc-CC-gcc-g++.md",
+    "build/build-cc.md~",
     "build/build-cc.md",
     "build/java/mvn-command.md",
     "build/java/build_maven_settings.xml",
