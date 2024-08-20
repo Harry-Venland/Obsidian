@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "a6a93a9e20cf14f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c78a0ce8e76c5cd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "667061eb2b77b718",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rpm/use-rpm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "438652cd3c66209d",
+    "type": "split",
+    "children": [
+      {
+        "id": "762424cc755c8ce3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d427d88a8a07346",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a889f42d1e12f565",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aeb774c2ff6e94b0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6d7fb69665913836",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c26eb4632e3b9f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67e2bebc6461a15a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "rpm/use-rpm.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1fcd07351ec4bd25",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "rpm/use-rpm.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ec020ebc7c696dae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e78b994acd17f5c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "rpm/use-rpm.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "667061eb2b77b718",
+  "lastOpenFiles": [
+    "build/build-cc.md",
+    "build/java/mvn-command.md",
+    "build/java/build_maven_settings.xml",
+    "build/java",
+    "rpm/use-osc.md",
+    "rpm/RPM命令介绍.pdf",
+    "rpm/RPM-COMMAND.pdf",
+    "rpm/koji-mock-env-build.md",
+    "rpm/koji-basic.md",
+    "archlinux/pacman.md",
+    "build/编译器.md",
+    "build/mvn-command.md",
+    "tool/python/setup.md",
+    "README.md",
+    "rpm/use-rpm.md",
+    "iso/iso制作.md"
+  ]
+}
