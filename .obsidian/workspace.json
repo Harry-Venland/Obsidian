@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rpm/use-rpm.md",
+                "file": "iso/iso制作.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rpm/use-rpm.md",
+                "file": "iso/iso制作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rpm/use-rpm.md",
+                "file": "iso/iso制作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rpm/use-rpm.md"
+                "file": "iso/iso制作.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   "active": "667061eb2b77b718",
   "lastOpenFiles": [
     "lightdm.md",
+    "rpm/use-rpm.md",
     "build/gcc/cc-CC-gcc-g++.md",
     "build/gcc",
     "build/cc-CC-gcc-g++.md",
@@ -167,7 +168,6 @@
     "build/mvn-command.md",
     "tool/python/setup.md",
     "README.md",
-    "rpm/use-rpm.md",
     "iso/iso制作.md"
   ]
 }
