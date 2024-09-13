@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lightdm.md",
+                "file": "tool/shell/tmux使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lightdm.md",
+                "file": "tool/shell/tmux使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lightdm.md",
+                "file": "tool/shell/tmux使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lightdm.md"
+                "file": "tool/shell/tmux使用.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "667061eb2b77b718",
   "lastOpenFiles": [
-    "iso/iso制作.md",
     "lightdm.md",
+    "iso/iso制作.md",
     "rpm/use-rpm.md",
     "build/gcc/cc-CC-gcc-g++.md",
     "build/gcc",
