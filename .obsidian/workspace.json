@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/shell/tmux使用.md",
+                "file": "rpm/koji-mock-env-build.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d88d5789d584558b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "6d7fb69665913836",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tool/shell/tmux使用.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tool/shell/tmux使用.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tool/shell/tmux使用.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -138,19 +151,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "667061eb2b77b718",
+  "active": "d88d5789d584558b",
   "lastOpenFiles": [
+    "rpm/koji-mock-env-build.md",
+    "Untitled.md",
+    "rpm/RPM命令介绍.pdf",
+    "rpm/use-osc.md",
+    "rpm/use-rpm.md",
+    "tool/shell/tmux使用.md",
     "lightdm.md",
     "iso/iso制作.md",
-    "rpm/use-rpm.md",
     "build/gcc/cc-CC-gcc-g++.md",
     "build/gcc",
     "build/cc-CC-gcc-g++.md",
@@ -159,10 +177,7 @@
     "build/java/mvn-command.md",
     "build/java/build_maven_settings.xml",
     "build/java",
-    "rpm/use-osc.md",
-    "rpm/RPM命令介绍.pdf",
     "rpm/RPM-COMMAND.pdf",
-    "rpm/koji-mock-env-build.md",
     "rpm/koji-basic.md",
     "archlinux/pacman.md",
     "build/编译器.md",
