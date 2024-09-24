@@ -1,5 +1,6 @@
 {
   "strictLineBreaks": true,
   "showLineNumber": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "defaultViewMode": "preview"
 }
