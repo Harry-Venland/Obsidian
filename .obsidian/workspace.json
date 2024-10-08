@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d88d5789d584558b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "rpm/koji-mock-env-build.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "rpm/koji-mock-env-build.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "rpm/koji-mock-env-build.md"
               }
             }
           }
@@ -159,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d88d5789d584558b",
+  "active": "667061eb2b77b718",
   "lastOpenFiles": [
-    "rpm/koji-mock-env-build.md",
     "Untitled.md",
+    "rpm/koji-mock-env-build.md",
     "rpm/RPM命令介绍.pdf",
     "rpm/use-osc.md",
     "rpm/use-rpm.md",
