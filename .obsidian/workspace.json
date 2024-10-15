@@ -148,6 +148,8 @@
   },
   "active": "667061eb2b77b718",
   "lastOpenFiles": [
+    "build/py/setuptool.md",
+    "build/py",
     "network/nftables.md",
     "rpm/koji-mock-env-build.md",
     "desktop/lightdm.md",
