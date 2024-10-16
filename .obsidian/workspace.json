@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7320027fb0427776",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "virt/libvirt使用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rpm/koji-mock-env-build.md",
+                "file": "virt/libvirt使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rpm/koji-mock-env-build.md",
+                "file": "virt/libvirt使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rpm/koji-mock-env-build.md"
+                "file": "virt/libvirt使用.md"
               }
             }
           }
@@ -146,17 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "667061eb2b77b718",
+  "active": "7320027fb0427776",
   "lastOpenFiles": [
+    "rpm/koji-mock-env-build.md",
+    "virt/libvirt使用.md",
+    "virt",
     "build/py/setuptool.md",
     "build/py",
     "network/nftables.md",
-    "rpm/koji-mock-env-build.md",
     "desktop/lightdm.md",
     "desktop",
     "network",
     "nftables.md",
-    "Untitled.md",
     "rpm/RPM命令介绍.pdf",
     "rpm/use-osc.md",
     "rpm/use-rpm.md",
