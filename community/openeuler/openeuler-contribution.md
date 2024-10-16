@@ -39,3 +39,5 @@
 > [openeuler社区命令参考手册](https://gitee.com/openeuler/community/blob/master/zh/sig-infrastructure/command.md)  
 > [openeuler社区升级软件包参考](https://gitee.com/src-openeuler/cryptsetup/pulls/38)  
 > [openEuler社区yaml文件规范](https://gitee.com/openeuler/openEuler-Advisor#31yaml-%E6%96%87%E4%BB%B6%E8%A7%84%E8%8C%83)
+> [EulerMaker](https://eulermaker.compass-ci.openeuler.openatom.cn)
+> [EulerMaker用户指南](https://docs.openeuler.org/zh/docs/22.03_LTS_SP2/docs/EulerMaker/EulerMaker%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97.html)

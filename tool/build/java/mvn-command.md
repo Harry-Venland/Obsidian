@@ -1,16 +1,19 @@
-mvn命令
+## mvn命令
 
-概述
+### 概述
 
 mvn是一个开发人员比较常用的一个项目管理工具，主要是对项目的创建、编译、打包操作。
 
 mvn需要jdk的支持，本次使用的maven版本为3.8.3
 
-配置maven
+### 配置maven
+
 下载maven，并解压,把解压后的maven放在`/usr/share/`中
+
 ```shell
 tar -zxvf maven-3.8.3.tar.gz -C /usr/share
 ```
+
 打开`/etc/profile`文件,配置完成后，执行`source /etc/profile`
 
 ```shell
@@ -18,7 +21,7 @@ export MAVEN_HOME=/usr/share/apache-maven-3.8.3
 export PATH=$MAVEN_HOME/bin:$PATH
 ```
 
-mvn命令参数
+### mvn命令参数
 
 ```shell
 mvn -v, --version 显示版本信息;
@@ -50,7 +53,8 @@ mvn -ep, --encrypt-password <password> 加密服务器密码,存储到Maven sett
 mvn -npr, --no-plugin-registry 对插件版本不使用~/.m2/plugin-registry.xml(插件注册表)里的配置;
 ```
 
-mvn编译命令
+### mvn编译命令
+
 ```shell
 mvn clean 清空生成的文件
 mvn clean install 删除在编译
