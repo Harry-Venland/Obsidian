@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "community/openeuler/openeuler-contribution.md",
+                "file": "archlinux/btrfs-create.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "community/openeuler/openeuler-contribution.md",
+                "file": "archlinux/btrfs-create.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "community/openeuler/openeuler-contribution.md",
+                "file": "archlinux/btrfs-create.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "community/openeuler/openeuler-contribution.md"
+                "file": "archlinux/btrfs-create.md"
               }
             }
           }
@@ -148,9 +148,11 @@
   },
   "active": "667061eb2b77b718",
   "lastOpenFiles": [
+    "archlinux/btrfs.md",
+    "archlinux/btrfs-create.md",
+    "community/openeuler/openeuler-contribution.md",
     "community/openeuler/openeuler-issue.md",
     "archlinux/ln.md",
-    "community/openeuler/openeuler-contribution.md",
     "tool/iso/forget-passwd.md",
     "community/freedesktop/contribute.md",
     "tool/virt/libvirt使用.md",
@@ -181,8 +183,6 @@
     "build/build-cc.md",
     "tool/build/java/mvn-command.md",
     "tool/build/java/build_maven_settings.xml",
-    "tool/build/java",
-    "archlinux/pacman.md",
-    "build/编译器.md"
+    "tool/build/java"
   ]
 }
