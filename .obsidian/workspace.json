@@ -164,8 +164,9 @@
   },
   "active": "667061eb2b77b718",
   "lastOpenFiles": [
-    "DBus调试.md",
+    "tool/shell/shell.md",
     "tool/rpm/koji-mock-env-build.md",
+    "DBus调试.md",
     "tool/iso/iso制作.md",
     "tool/shell/tmux使用.md",
     "tool/rpm/koji-basic.md",
@@ -174,7 +175,6 @@
     "archlinux/btrfs.md",
     "archlinux/btrfs-create.md",
     "tool/shell/shell-study.md",
-    "tool/shell/shell.md",
     "community/openeuler/openeuler-contribution.md",
     "community/openeuler/openeuler-issue.md",
     "archlinux/ln.md",
