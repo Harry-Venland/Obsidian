@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/shell/shell.md",
-                "mode": "source",
+                "file": "tool/iso/iso制作.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "shell"
+              "title": "iso制作"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -164,27 +165,28 @@
   },
   "active": "667061eb2b77b718",
   "lastOpenFiles": [
+    "tool/iso/forget-passwd.md",
+    "tool/rpm/use-rpm.md",
+    "tool/rpm/use-osc.md",
+    "tool/rpm/RPM命令介绍.pdf",
     "tool/rpm/koji-mock-env-build.md",
+    "tool/rpm/koji-basic.md",
+    "README.md",
     "tool/shell/shell.md",
+    "tool/shell/shell-study.md",
+    "tool/shell/tmux使用.md",
     "DBus调试.md",
     "tool/iso/iso制作.md",
-    "tool/shell/tmux使用.md",
-    "tool/rpm/koji-basic.md",
     "tool/network/nftables.md",
-    "tool/iso/forget-passwd.md",
     "archlinux/btrfs.md",
     "archlinux/btrfs-create.md",
-    "tool/shell/shell-study.md",
     "community/openeuler/openeuler-contribution.md",
     "community/openeuler/openeuler-issue.md",
     "archlinux/ln.md",
     "community/freedesktop/contribute.md",
     "tool/virt/libvirt使用.md",
-    "tool/rpm/use-rpm.md",
     "tool/virt/docker-use-root.md",
     "tool/python/setup.md",
-    "tool/rpm/use-osc.md",
-    "tool/rpm/RPM命令介绍.pdf",
     "tool/build/python/2-to-3.md",
     "tool/build/python",
     "tool/virt",
@@ -194,8 +196,6 @@
     "tool/desktop",
     "tool/network",
     "nftables.md",
-    "lightdm.md",
-    "tool/build/gcc/cc-CC-gcc-g++.md",
     "tool/build/gcc",
     "build/build-cc.md~",
     "tool/build/java/build_maven_settings.xml",
