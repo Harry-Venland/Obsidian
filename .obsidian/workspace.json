@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/iso/iso制作.md",
+                "file": "tool/shell/tmux使用.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "iso制作"
+              "title": "tmux使用"
             }
           }
         ]
@@ -165,18 +165,18 @@
   },
   "active": "667061eb2b77b718",
   "lastOpenFiles": [
+    "tool/rpm/koji-mock-env-build.md",
+    "tool/iso/iso制作.md",
     "tool/iso/forget-passwd.md",
     "tool/rpm/use-rpm.md",
     "tool/rpm/use-osc.md",
     "tool/rpm/RPM命令介绍.pdf",
-    "tool/rpm/koji-mock-env-build.md",
     "tool/rpm/koji-basic.md",
     "README.md",
     "tool/shell/shell.md",
     "tool/shell/shell-study.md",
     "tool/shell/tmux使用.md",
     "DBus调试.md",
-    "tool/iso/iso制作.md",
     "tool/network/nftables.md",
     "archlinux/btrfs.md",
     "archlinux/btrfs-create.md",
