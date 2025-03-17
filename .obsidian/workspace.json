@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/shell/tmux使用.md",
+                "file": "tool/rpm/koji-mock-env-build.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tmux使用"
+              "title": "koji-mock-env-build"
+            }
+          },
+          {
+            "id": "964264adf184b5fe",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,19 +176,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "667061eb2b77b718",
+  "active": "964264adf184b5fe",
   "lastOpenFiles": [
+    "tool/rpm/koji-basic.md",
+    "tool/shell/tmux使用.md",
     "tool/rpm/koji-mock-env-build.md",
+    "tool/virt/libvirt使用.md",
+    "tool/virt/docker-use-root.md",
     "tool/iso/iso制作.md",
     "tool/iso/forget-passwd.md",
     "tool/rpm/use-rpm.md",
     "tool/rpm/use-osc.md",
     "tool/rpm/RPM命令介绍.pdf",
-    "tool/rpm/koji-basic.md",
     "README.md",
     "tool/shell/shell.md",
     "tool/shell/shell-study.md",
-    "tool/shell/tmux使用.md",
     "DBus调试.md",
     "tool/network/nftables.md",
     "archlinux/btrfs.md",
@@ -184,8 +199,6 @@
     "community/openeuler/openeuler-issue.md",
     "archlinux/ln.md",
     "community/freedesktop/contribute.md",
-    "tool/virt/libvirt使用.md",
-    "tool/virt/docker-use-root.md",
     "tool/python/setup.md",
     "tool/build/python/2-to-3.md",
     "tool/build/python",
