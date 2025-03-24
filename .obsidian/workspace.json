@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "c78a0ce8e76c5cd0",
+        "id": "ffc3693273a190bf",
         "type": "tabs",
         "children": [
           {
-            "id": "667061eb2b77b718",
+            "id": "a4ea50f7f6c2d809",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tool/rpm/koji-mock-env-build.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "koji-mock-env-build"
-            }
-          },
-          {
-            "id": "964264adf184b5fe",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,11 +159,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "964264adf184b5fe",
+  "active": "a4ea50f7f6c2d809",
   "lastOpenFiles": [
+    "tool/proc文件系统详解.md",
+    "tool/rpm/koji-mock-env-build.md",
     "tool/rpm/koji-basic.md",
     "tool/shell/tmux使用.md",
-    "tool/rpm/koji-mock-env-build.md",
+    "tool/shell/shell-study.md",
+    "tool/shell/shell.md",
     "tool/virt/libvirt使用.md",
     "tool/virt/docker-use-root.md",
     "tool/iso/iso制作.md",
@@ -189,8 +175,6 @@
     "tool/rpm/use-osc.md",
     "tool/rpm/RPM命令介绍.pdf",
     "README.md",
-    "tool/shell/shell.md",
-    "tool/shell/shell-study.md",
     "DBus调试.md",
     "tool/network/nftables.md",
     "archlinux/btrfs.md",
