@@ -17,103 +17,103 @@ devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmod
 tmpfs on /run type tmpfs (rw,nosuid,nodev,noexec,relatime,size=1628232k,mode=755)
 ```
 
-## 下面是/proc文件系统中一些常见的信息
+## 下面是`/proc`文件系统中一些常见的信息
 
 - /proc/cpuinfo：显示处理器的信息，如型号、频率、缓存大小等。
 
-```bash
-cat /proc/cpuinfo   
-processor       : 0
-vendor_id       : GenuineIntel
-cpu family      : 6
-model           : 165
-model name      : Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
-stepping        : 5
-microcode       : 0xfc
-cpu MHz         : 4599.702
-cache size      : 16384 KB
-physical id     : 0
-siblings        : 16
-core id         : 0
-cpu cores       : 8
-apicid          : 0
-initial apicid  : 0
-fpu             : yes
-fpu_exception   : yes
-cpuid level     : 22
-wp              : yes
-flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts vnmi pku ospke md_clear flush_l1d arch_capabilities
-vmx flags       : vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
-bugs            : spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb gds bhi
-bogomips        : 5799.77
-clflush size    : 64
-cache_alignment : 64
-address sizes   : 39 bits physical, 48 bits virtual
-power management:
-```
+    ```bash
+    cat /proc/cpuinfo   
+    processor       : 0
+    vendor_id       : GenuineIntel
+    cpu family      : 6
+    model           : 165
+    model name      : Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+    stepping        : 5
+    microcode       : 0xfc
+    cpu MHz         : 4599.702
+    cache size      : 16384 KB
+    physical id     : 0
+    siblings        : 16
+    core id         : 0
+    cpu cores       : 8
+    apicid          : 0
+    initial apicid  : 0
+    fpu             : yes
+    fpu_exception   : yes
+    cpuid level     : 22
+    wp              : yes
+    flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts vnmi pku ospke md_clear flush_l1d arch_capabilities
+    vmx flags       : vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple shadow_vmcs pml ept_mode_based_exec
+    bugs            : spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data retbleed eibrs_pbrsb gds bhi
+    bogomips        : 5799.77
+    clflush size    : 64
+    cache_alignment : 64
+    address sizes   : 39 bits physical, 48 bits virtual
+    power management:
+    ```
 
 - /proc/meminfo：提供内存的详细信息，包括总内存、空闲内存、缓存和交换空间的使用情况等。
 
-```bash
-cat /proc/meminfo          
-MemTotal:       16282292 kB
-MemFree:         1221952 kB
-MemAvailable:    7376704 kB
-Buffers:          355280 kB
-Cached:          5865704 kB
-SwapCached:       630192 kB
-Active:          5170492 kB
-Inactive:        6554236 kB
-Active(anon):    3913884 kB
-Inactive(anon):  1754152 kB
-Active(file):    1256608 kB
-Inactive(file):  4800084 kB
-Unevictable:          80 kB
-Mlocked:              80 kB
-SwapTotal:      16777212 kB
-SwapFree:       14625276 kB
-Zswap:                 0 kB
-Zswapped:              0 kB
-Dirty:              1636 kB
-Writeback:             0 kB
-AnonPages:       5454320 kB
-Mapped:          1346012 kB
-Shmem:            164284 kB
-KReclaimable:    1188764 kB
-Slab:            1518844 kB
-SReclaimable:    1188764 kB
-SUnreclaim:       330080 kB
-KernelStack:       43536 kB
-PageTables:       111208 kB
-SecPageTables:         0 kB
-NFS_Unstable:          0 kB
-Bounce:                0 kB
-WritebackTmp:          0 kB
-CommitLimit:    24918356 kB
-Committed_AS:   47798212 kB
-VmallocTotal:   34359738367 kB
-VmallocUsed:       91648 kB
-VmallocChunk:          0 kB
-Percpu:            17472 kB
-HardwareCorrupted:     0 kB
-AnonHugePages:         0 kB
-ShmemHugePages:        0 kB
-ShmemPmdMapped:        0 kB
-FileHugePages:      2048 kB
-FilePmdMapped:         0 kB
-CmaTotal:              0 kB
-CmaFree:               0 kB
-Unaccepted:            0 kB
-HugePages_Total:       0
-HugePages_Free:        0
-HugePages_Rsvd:        0
-HugePages_Surp:        0
-Hugepagesize:       2048 kB
-Hugetlb:               0 kB
-DirectMap4k:     2675084 kB
-DirectMap2M:    14024704 kB
-DirectMap1G:     1048576 kB
-```
+    ```bash
+    cat /proc/meminfo          
+    MemTotal:       16282292 kB
+    MemFree:         1221952 kB
+    MemAvailable:    7376704 kB
+    Buffers:          355280 kB
+    Cached:          5865704 kB
+    SwapCached:       630192 kB
+    Active:          5170492 kB
+    Inactive:        6554236 kB
+    Active(anon):    3913884 kB
+    Inactive(anon):  1754152 kB
+    Active(file):    1256608 kB
+    Inactive(file):  4800084 kB
+    Unevictable:          80 kB
+    Mlocked:              80 kB
+    SwapTotal:      16777212 kB
+    SwapFree:       14625276 kB
+    Zswap:                 0 kB
+    Zswapped:              0 kB
+    Dirty:              1636 kB
+    Writeback:             0 kB
+    AnonPages:       5454320 kB
+    Mapped:          1346012 kB
+    Shmem:            164284 kB
+    KReclaimable:    1188764 kB
+    Slab:            1518844 kB
+    SReclaimable:    1188764 kB
+    SUnreclaim:       330080 kB
+    KernelStack:       43536 kB
+    PageTables:       111208 kB
+    SecPageTables:         0 kB
+    NFS_Unstable:          0 kB
+    Bounce:                0 kB
+    WritebackTmp:          0 kB
+    CommitLimit:    24918356 kB
+    Committed_AS:   47798212 kB
+    VmallocTotal:   34359738367 kB
+    VmallocUsed:       91648 kB
+    VmallocChunk:          0 kB
+    Percpu:            17472 kB
+    HardwareCorrupted:     0 kB
+    AnonHugePages:         0 kB
+    ShmemHugePages:        0 kB
+    ShmemPmdMapped:        0 kB
+    FileHugePages:      2048 kB
+    FilePmdMapped:         0 kB
+    CmaTotal:              0 kB
+    CmaFree:               0 kB
+    Unaccepted:            0 kB
+    HugePages_Total:       0
+    HugePages_Free:        0
+    HugePages_Rsvd:        0
+    HugePages_Surp:        0
+    Hugepagesize:       2048 kB
+    Hugetlb:               0 kB
+    DirectMap4k:     2675084 kB
+    DirectMap2M:    14024704 kB
+    DirectMap1G:     1048576 kB
+    ```
 
 - /proc/kallsyms：包含内核的所有全局变量和函数在内存中的地址。系统崩溃时产生opps信息中，函数调用堆栈中显示出来的函数名，就是在这个文件的帮助下生成的
 
@@ -121,7 +121,7 @@ DirectMap1G:     1048576 kB
 
 - /proc/net/：包含网络相关信息，如/proc/net/tcp显示TCP连接列表，/proc/net/dev显示网络设备统计信息等。
 
-  > - `/proc/net/tcp`: 显示TCP连接的统计信息  
+    > - `/proc/net/tcp`: 显示TCP连接的统计信息
     > - `/proc/net/udp`: 显示UDP连接的统计信息
     > - `/proc/net/dev`: 显示网络设备的使用情况
 
@@ -131,16 +131,64 @@ DirectMap1G:     1048576 kB
 
 - /proc/version：显示正在运行的内核版本、gcc版本等信息。
 
-- /proc/PID/：每个进程都有一个以其PID命名的目录，包含了该进程的详细信息
+    ```bash
+    cat /proc/version       
+    Linux version 6.6.71-amd64-desktop-hwe (root@deepinci-amd7) (gcc (Deepin 12.3.0-17deepin8) 12.3.0, GNU ld (GNU Binutils for Deepin) 2.41) #23.01.00.45 SMP PREEMPT_DYNAMIC Tue Jan 14 10:35:43 CST 2025
+    ```
 
-|文件/目录|作用|示例命令|
-|:-|:-|:-|
-|`cmdline`|进程启动命令及参数|`cat /proc/1234/cmdline`|
-|`status`|进程状态(内存、PID、用户等)|`cat /proc/1234/status`|
-|`fd/`|进程打开的文件描述符|`ls -l /proc/1234/fd`|
-|`maps`|进程内存映射(堆栈、库等)|`cat /proc/1234/maps`|
+- /proc/PID/：每个进程都有一个以其PID命名的目录，包含了该进程的详细信息，如/proc/1234/status显示进程状态，/proc/1234/cmdline显示进程启动命令行参数等。
+
+    |文件/目录|作用|示例命令|
+    |:-|:-|:-|
+    |`cmdline`|进程启动命令及参数|`cat /proc/1234/cmdline`|
+    |`status`|进程状态(内存、PID、用户等)|`cat /proc/1234/status`|
+    |`fd/`|进程打开的文件描述符|`ls -l /proc/1234/fd`|
+    |`maps`|进程内存映射(堆栈、库等)|`cat /proc/1234/maps`|
 
 - /proc/filesystem: 列出当前内核支持的文件系统类型
+
+    ```bash
+    cat /proc/filesystems 
+    nodev   sysfs
+    nodev   tmpfs
+    nodev   bdev
+    nodev   proc
+    nodev   cgroup
+    nodev   cgroup2
+    nodev   cpuset
+    nodev   devtmpfs
+    nodev   configfs
+    nodev   debugfs
+    nodev   tracefs
+    nodev   securityfs
+    nodev   sockfs
+    nodev   bpf
+    nodev   pipefs
+    nodev   ramfs
+    nodev   hugetlbfs
+    nodev   devpts
+            ext3
+            ext2
+            ext4
+            squashfs
+            vfat
+    nodev   ecryptfs
+            fuseblk
+    nodev   fuse
+    nodev   fusectl
+    nodev   efivarfs
+    nodev   mqueue
+    nodev   binder
+    nodev   pstore
+            btrfs
+    nodev   autofs
+            xfs
+    nodev   binfmt_misc
+    nodev   rpc_pipefs
+    nodev   overlay
+            iso9660
+            exfat
+    ```
 
 - /proc/modules：列出已加载的内核模块。等同`lsmod`命令
 
