@@ -117,7 +117,7 @@ tmpfs on /run type tmpfs (rw,nosuid,nodev,noexec,relatime,size=1628232k,mode=755
 
 - /proc/kallsyms：包含内核的所有全局变量和函数在内存中的地址。系统崩溃时产生opps信息中，函数调用堆栈中显示出来的函数名，就是在这个文件的帮助下生成的
 
-- /proc/interrupts：包含系统记录的每个CPU上处理的各类终端信息。irqbalance可以帮助系统把中断分发给不同的CPU，实现负载均衡
+- /proc/interrupts：包含系统记录的每个CPU上处理的各类中断信息。irqbalance可以帮助系统把中断分发给不同的CPU，实现负载均衡
 
 - /proc/net/：包含网络相关信息，如/proc/net/tcp显示TCP连接列表，/proc/net/dev显示网络设备统计信息等。
 
@@ -136,7 +136,7 @@ tmpfs on /run type tmpfs (rw,nosuid,nodev,noexec,relatime,size=1628232k,mode=755
     Linux version 6.6.71-amd64-desktop-hwe (root@deepinci-amd7) (gcc (Deepin 12.3.0-17deepin8) 12.3.0, GNU ld (GNU Binutils for Deepin) 2.41) #23.01.00.45 SMP PREEMPT_DYNAMIC Tue Jan 14 10:35:43 CST 2025
     ```
 
-- /proc/PID/：每个进程都有一个以其PID命名的目录，包含了该进程的详细信息，如/proc/1234/status显示进程状态，/proc/1234/cmdline显示进程启动命令行参数等。
+- /proc/PID/：每个进程都有一个以其PID命名的目录，包含了该进程的详细信息。
 
     |文件/目录|作用|示例命令|
     |:-|:-|:-|

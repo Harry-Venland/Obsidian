@@ -11,10 +11,14 @@
             "id": "a4ea50f7f6c2d809",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "tool/rpm/koji-basic.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "koji-basic"
             }
           }
         ]
