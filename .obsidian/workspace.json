@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/rpm/koji-basic.md",
+                "file": "tool/rpm/koji-mock-env-build.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "koji-basic"
+              "title": "koji-mock-env-build"
             }
           }
         ]
@@ -165,9 +165,9 @@
   },
   "active": "a4ea50f7f6c2d809",
   "lastOpenFiles": [
+    "tool/rpm/koji-basic.md",
     "tool/proc文件系统详解.md",
     "tool/rpm/koji-mock-env-build.md",
-    "tool/rpm/koji-basic.md",
     "tool/shell/tmux使用.md",
     "tool/shell/shell-study.md",
     "tool/shell/shell.md",
