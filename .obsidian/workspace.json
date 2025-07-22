@@ -11,10 +11,14 @@
             "id": "6d1882962b174dc8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "tool/rpm/koji-mock-env-build.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "koji-mock-env-build"
             }
           }
         ]
