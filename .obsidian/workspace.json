@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tool/shell/tmux使用.md",
+                "file": "tool/shell/shell-study.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tmux使用"
+              "title": "shell-study"
             }
           }
         ]
@@ -165,8 +165,8 @@
   },
   "active": "6d1882962b174dc8",
   "lastOpenFiles": [
-    "tool/rpm/koji-mock-env-build.md",
     "tool/shell/tmux使用.md",
+    "tool/rpm/koji-mock-env-build.md",
     "tool/virt/libvirt使用.md",
     "tool/rpm/koji-basic.md",
     "tool/proc文件系统详解.md",
